@@ -42,7 +42,7 @@ Requirement
 Using
 ===========
 * Twitter Bootstrap 3.3.4 and 2.3.2
-* jQuery 1.11.1
+* jQuery 3.2.1
 * Bootswatch
 * Font Awesome 4.3.0
 
