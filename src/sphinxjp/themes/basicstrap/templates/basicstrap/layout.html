@@ -34,6 +34,7 @@
   <div class="navbar-inner">
     <ul class="nav navbar-nav {% if theme_noresponsiverelbar|tobool %}text-center{% endif %}">
         <li><a href="{{ pathto(master_doc) }}">{{ shorttitle|e }}</a></li>
+        {%- block navbarinnerextra %} {% endblock %}
     </ul>
 <ul class="nav navbar-nav {% if not theme_noresponsiverelbar|tobool %}pull-right hidden-{{ class_device_xs }} hidden-{{ class_device_sm }}{% else %}text-center{% endif %}">
       {% if not (theme_nosidebar|tobool) %}
